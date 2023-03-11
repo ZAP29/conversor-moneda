@@ -48,6 +48,7 @@ public class Conversor {
 			double monto = sc.nextDouble();
 			double cambio = monto * valorCambios[(opcion-5)-1];
 			System.out.println("El monto de COP en USD es: " + cambio);
+			System.out.println("Mensaje nuevo");
 			
 		} catch (NumberFormatException e) {
             System.out.println("Error: Ingrese un valor numérico válido.");
